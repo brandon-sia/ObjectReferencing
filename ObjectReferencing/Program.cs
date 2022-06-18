@@ -39,6 +39,10 @@ namespace ObjectReferencing
                     lloyd.EarSize = 4321;
                     lloyd.WhoAmI();
                 }
+                else if(input == '5')
+                {
+                    lucinda.SpeakTo(lloyd, "Hi, Lloyd!");
+                }
                 else return;
                 Console.WriteLine();
 
